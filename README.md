@@ -17,9 +17,11 @@ v02:
 - cleanup mechanism for cycle json files older than 7 days
 
 #----------------------------------------------------------
+
 TODO in v03:
-implement Vite wallet address validation
+-implement Vite wallet address validation
 based on checksum calculation.
+
 
 Following js functions must be rewritten into PHP:
 
