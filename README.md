@@ -25,7 +25,7 @@ based on checksum calculation.
 
 Following js functions must be rewritten into PHP:
 
-[block]
+```
 function getAddrCheckSum(addr: Buffer, isContract? : boolean): Hex {
     const addrPre20 = addr.slice(0, 20);
     const _checkSum = blake2b(addrPre20, null, ADDR_CHECK_SUM_SIZE);
@@ -68,4 +68,4 @@ function isValidCheckSum(hexAddr: Address): AddressType {
 
     return AddressType.Illegal;
 }
-[block]
+```
