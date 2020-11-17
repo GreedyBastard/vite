@@ -17,7 +17,15 @@ v02:
 - cleanup mechanism for cycle json files older than 7 days
 
 v03:
--implemented Vite wallet address validation
-based on checksum calculation (together with Allen@ViteLabs)
+- implemented Vite wallet address validation based on checksum calculation (together with Allen@ViteLabs)
 - added error handling
 
+HOW-TO:
+1. Download and install Xampp on your windows machine.
+2. Open Xampp control panel and start apache service.
+3. Download latest version of FullNode Online Checker (eg. v3) and put it into C:\xampp\htdocs\
+4. Open your web browser and navigate to:
+https://localhost/vitex/v03/
+
+Or...
+just upload latest version to your webserver ;)
