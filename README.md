@@ -20,10 +20,14 @@ v03:
 - implemented Vite wallet address validation based on checksum calculation (together with Allen@ViteLabs)
 - added error handling
 
+v04:
+- changed the code of cycle calculation, ceil -> floor
+- for current incomplete cycle -> always download fresh data from API
+
 HOW-TO:
 1. Download and install Xampp on your windows machine.
 2. Open Xampp control panel and start apache service.
-3. Download latest version of FullNode Online Checker (eg. v3) and put it into C:\xampp\htdocs\
+3. Download latest version of FullNode Online Checker (eg. v4) and put it into C:\xampp\htdocs\
 4. Open your web browser and navigate to:
 https://localhost/vitex/v03/
 
