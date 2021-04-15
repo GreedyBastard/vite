@@ -432,7 +432,7 @@ if($addressVerified==1)
 				#echo "<br><br>";
 			}
 		} else {
-			echo $err_div . "ViteX API unavailable. Sorry!" ."</div><br>";
+			echo $err_div . "ViteX FullNode API unavailable. Sorry!" ."</div><br>";
 		}
 	// echo date('h:i:s:u', time()) . ": Filtering data end. <br><br><br>"; 
 }
